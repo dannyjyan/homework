@@ -26,12 +26,12 @@ class Queue
       @queue = []
     end
 
-    def unshift(el)
+    def enqueue(el)
       # adds an element to the queue
       @queue = [el] + @queue
     end
 
-    def shift
+    def dequeue
       # removes one element from the queue
       @queue.delete_at(0)
     end
