@@ -7,7 +7,7 @@ describe Board do
     Board.new("Erica", "James")
   end
 
-  let(:six_stone_cup) do
+  let(:six_stone_cup) do:
     [:stone, :stone, :stone, :stone, :stone, :stone]
   end
   let(:five_stone_cup) do
